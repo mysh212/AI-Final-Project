@@ -43,4 +43,18 @@ class ds(Dataset):
         return pre
 
     def onehot(self, x: int):
-        return self.one_hot(x, len(self.f))
+        return self.one_hot(x, len(self.mark))
+    
+class ts(Dataset):
+    def __init__(self, path: str):
+        log.debug('Test Dataset Load')(f'Loading datasets from {path}')
+        self.path = path
+        self.f = [f'{path}/{i}' for i in ls(path)]
+        log.debug('Test Dataset Load')(f'Dynamically loaded {len(self.f)} datas')
+        return
+
+    def __getitem__(self, index):
+        return torch.tensor(cv2.imread(self.f[index], cv2.IMREAD_GRAYSCALE)) / 255.0
+
+    def __len__(self):
+        return len(self.f)
