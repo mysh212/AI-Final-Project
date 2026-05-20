@@ -17,7 +17,7 @@ load_dotenv()
 transformation = A.Compose([
     A.HorizontalFlip(p=0.5),
     # A.VerticalFlip(p=0.5),
-    A.ShiftScaleRotate(shift_limit = .05, scale_limit = .1, rotate_limit = 20, p = 0.5),
+    A.ShiftScaleRotate(shift_limit = .05, scale_limit = .1, rotate_limit = 10, p = 0.5),
     A.RandomBrightnessContrast(p=0.3),
     A.GaussianBlur(p=0.1),
     A.Normalize(),
