@@ -38,8 +38,9 @@ for ep in range(EPOCHS):
     
     log.info('Validate', rep = True)(f'Validating for EPOCH {ep}')
     val, yes = validate(model, g, ep)
+    log.info('Validate')(val = val, yes = yes)
 
-    schr.step(val)
+    schr.step(1 - (yes / len(_g)))
     log.info('scheduler', rep = True)(f'New learning rate = {optr.param_groups[0]["lr"]}')
     # info('Running Tests')
     # encode(run_tests(model), _ds.mark)

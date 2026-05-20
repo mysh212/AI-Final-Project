@@ -67,7 +67,7 @@ def validate(model, g, ep):
             loss = locc(pred, ans)
             losses += loss.item()
 
-            yes += ((torch.argmax(pred, dim = 1) == (torch.argmax(ans, dim = 1))).sum())
+            yes += ((torch.argmax(pred, dim = 1) == (torch.argmax(ans, dim = 1))).sum()).item()
 
             bar.set_postfix(EPOCH = ep, loss = losses / (j + 1), accuracy = f'{yes} / {(j + 1) * BATCH_SIZE} = {yes / ((j + 1) * BATCH_SIZE):.2f}')
         return losses / len(g), yes
