@@ -28,7 +28,7 @@ class ds(Dataset):
         return
 
     def __getitem__(self, index):
-        return torch.tensor(cv2.imread(self.f[index][0], cv2.IMREAD_GRAYSCALE)) / 255.0, self.onehot(self.f[index][1])
+        return torch.tensor(cv2.imread(self.f[index][0], cv2.IMREAD_GRAYSCALE)) / 255.0 * 2048 - 1024, self.onehot(self.f[index][1])
 
     def __len__(self):
         return len(self.f)
@@ -54,7 +54,7 @@ class ts(Dataset):
         return
 
     def __getitem__(self, index):
-        return torch.tensor(cv2.imread(self.f[index], cv2.IMREAD_GRAYSCALE)) / 255.0
+        return torch.tensor(cv2.imread(self.f[index], cv2.IMREAD_GRAYSCALE)) / 255.0 * 2048 - 1024
 
     def __len__(self):
         return len(self.f)

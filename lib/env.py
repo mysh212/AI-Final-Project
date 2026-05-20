@@ -7,7 +7,7 @@ import torch
 load_dotenv()
 
 BATCH_SIZE = 7
-LEARNING_RATE = 1e-3
+LEARNING_RATE = 1e-4
 EPOCHS = 100
 SPECIAL_DEVICES = True
 
