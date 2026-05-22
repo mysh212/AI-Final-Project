@@ -5,6 +5,7 @@ from lib.env import device
 
 from dotenv import load_dotenv
 
+import re
 import cv2
 import albumentations as A
 
@@ -77,7 +78,7 @@ class ts(Dataset):
         return
 
     def __getitem__(self, index):
-        return torch.tensor(self.transformation(image = cv2.imread(self.f[index], cv2.IMREAD_GRAYSCALE))['image']) / 255.0 * 2048 - 1024
+        return torch.tensor(self.transformation(image = cv2.imread(self.f[index], cv2.IMREAD_GRAYSCALE))['image']) / 255.0 * 2048 - 1024, re.match(r'^.*/(\d+)\..+$', self.f[index]).groups()[0]
 
     def __len__(self):
         return len(self.f)

@@ -21,7 +21,7 @@ g = DataLoader(_g, batch_size = BATCH_SIZE, shuffle = False)
 
 model = get_model(_ds.mark.__len__())
 
-locc = nn.BCEWithLogitsLoss()
+locc = nn.CrossEntropyLoss()
 optr = torch.optim.Adam(model.parameters(), lr = LEARNING_RATE)
 schr = torch.optim.lr_scheduler.ReduceLROnPlateau(optr, 'min', 0.1, 3, min_lr = 1e-5)
 
@@ -40,7 +40,7 @@ for ep in range(EPOCHS):
     val, yes = validate(model, g, ep)
     log.info('Validate')(val = val, yes = yes)
 
-    schr.step(1 - (yes / len(_g)))
+    schr.step(val) # (1 - (yes / len(_g)))
     log.info('scheduler', rep = True)(f'New learning rate = {optr.param_groups[0]["lr"]}')
     # info('Running Tests')
     # encode(run_tests(model), _ds.mark)

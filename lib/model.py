@@ -17,7 +17,7 @@ def get_model(feature_count: int):
     model.op_threshs = None
     model = model.to(device)
 
-    for ep in range(EPOCHS):
+    for ep in range(EPOCHS + 1):
         if not exist(f'data/model.{ep}.mdl'):
             if ep == 0:
                 break

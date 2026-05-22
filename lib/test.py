@@ -15,15 +15,16 @@ f = DataLoader(_f, batch_size = BATCH_SIZE)
 
 log = _log('test')
 
-def run_tests(model):
-    aans = []
+def run_tests(model) -> dict:
+    aans = {}
     log.info('Run Tests')(f'Start running tests')
-    for img in tqdm(f):
+    for img, path in tqdm(f):
         img = img.unsqueeze(1)
         img = img.to(device)
 
         ans = model(img)
-        aans.extend(torch.argmax(ans, dim = 1))
+        for i, j in zip(path, torch.argmax(ans, dim = 1)):
+            aans[i] = j.item()
 
     log.info('Run Tests')(f'Test Finished.')
     return aans
