@@ -1,7 +1,7 @@
 from core.general import *
 from core.log import log as _log
 
-from lib.env import device
+from lib.env import device, TRANSFORM
 
 from dotenv import load_dotenv
 
@@ -36,12 +36,12 @@ static_transformation = A.Compose([
 ])
 
 class ds(Dataset):
-    def __init__(self, path: str, transformation = transformation):
+    def __init__(self, path: str, transformation = transformation if TRANSFORM else static_transformation):
         log.debug('Dataset Load')(f'Loading datasets from {path}')
         self.path = path
         f = ls(path)
         self.f = []
-        self.mark = f.copy()
+        self.mark = sorted(f.copy())
         self.to = {i: j for j, i in enumerate(f)}
         self.transformation = transformation
         for k, i in enumerate(f):

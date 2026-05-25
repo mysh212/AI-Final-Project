@@ -6,6 +6,7 @@ from lib.env import *
 from lib.model import get_model, train, validate
 from lib.test import run_tests
 from lib.encode import encode
+from submit import kaggle_submit as auto_submit
 
 from torch import nn
 from torch.utils.data import DataLoader, random_split
@@ -44,3 +45,6 @@ for ep in range(EPOCHS):
     log.info('scheduler', rep = True)(f'New learning rate = {optr.param_groups[0]["lr"]}')
     # info('Running Tests')
     # encode(run_tests(model), _ds.mark)
+
+    log.info('Submit', rep = True)(f'Submitting EPOCH {ep}')
+    auto_submit()
