@@ -1,76 +1,61 @@
 from core.general import *
-from core.log import log as _log
 
-from lib.type import ds
-from lib.env import *
-from lib.model import get_model, train, validate
-from lib.test import run_tests
-from lib.encode import encode
-from submit import kaggle_submit as auto_submit
-
-from torch import nn
-from torch.utils.data import DataLoader, random_split
-
-from collections import defaultdict
-import random
 import re
+import numpy as np
+import pandas as pd
 
-log = _log('main')
+import torchxrayvision as xrv
+import torch, torchvision
+from tqdm import tqdm
 
-_ds = ds('data/train')
-# _f, _g = random_split(_ds, [.8, .2], torch.Generator().manual_seed(212))
+import cv2
 
-random.seed(212)
+GATE = .5213
 
-filter = re.compile(r'^.*/(\d+)_\d+\.png$')
+# from lib.env import device
+device = torch.device('cpu')
 
-patient = defaultdict(list)
+def predict(path: str):
+    img = cv2.imread(path, cv2.IMREAD_GRAYSCALE)
+    img = xrv.datasets.normalize(img, 255) # convert 8-bit image to [-1024, 1024] range
+    # img = img.mean(2)[None, ...] # Make single color channel
+    img = np.array([img])
 
-for i, j in _ds.f:
-    label = filter.findall(i)[0]
-    patient[label].append([i, j])
+    transform = torchvision.transforms.Compose([xrv.datasets.XRayCenterCrop(),xrv.datasets.XRayResizer(224)])
 
-patient = list(zip(patient.keys(), patient.values()))
+    img = transform(img)
+    img = torch.from_numpy(img).to(device)
 
-random.shuffle(patient)
+    # Load model and process image
+    model = xrv.models.DenseNet(weights="densenet121-res224-all").to(device)
+    outputs = model(img[None,...]) # or model.features(img[None,...]) 
 
-cases = []
-for i in patient:
-    cases.extend(i[1])
+    # Print results
+    return (dict(zip(model.pathologies,outputs[0].detach().cpu().numpy())))
 
-cut = int(len(cases) * VALIDATE_RATIO)
+mark = ls('data/train')
 
-_f, _g = ds('data/train', files = cases[:cut], transform = True), ds('data/train', files = cases[cut:], transform = False)
+def shape(p):
+    name, prob = max([i for i in zip(p.keys(), p.values()) if i[0] in mark], key = lambda x: x[1])
+    if prob < GATE:
+        name = 'No Finding'
+    return name
 
-f = DataLoader(_f, batch_size = BATCH_SIZE, shuffle = True)
-g = DataLoader(_g, batch_size = BATCH_SIZE, shuffle = False)
+aans = []
+def write(filename: str, ans: str):
+    aans.append(dict(filename = filename, label = ans))
+    return
 
-model = get_model(_ds.mark.__len__())
+filter = re.compile(r'^.*/((.+)\.(?:png|jpg))$')
 
-locc = nn.CrossEntropyLoss(weight = _f.get_weight(list(range(len(_f.mark)))[::-1] if REVERSE_PENALTY else None).to(device) if WEIGHT_BALANCE else None)
-optr = torch.optim.Adam(model.parameters(), lr = LEARNING_RATE)
-schr = torch.optim.lr_scheduler.ReduceLROnPlateau(optr, 'min', factor = 0.1, patience = 3, min_lr = 1e-5)
+def export():
+    df = pd.DataFrame(aans)
+    df['id'] = df.filename.map(lambda x: filter.findall(x)[0][1])
+    df['filename'] = df.filename.map(lambda x: filter.findall(x)[0][1])
+    df = df.sort_values(['id'])
+    return df
 
-for ep in range(EPOCHS):
-    if exist(f'data/model.{ep}.mdl'):
-        continue
-    log.info('Train', rep = True)(f'Training EPOCH {ep}')
+for i in tqdm(ls('data/test')):
+    write(i, shape(predict(f'data/test/{i}')))
 
-    losses = train(model, f, locc, optr, ep)
-
-    info(f'Finished training EPOCH {ep} with loss {losses / len(f)}, saving')
-    log.info('Train')(f'Finished training EPOCH {ep} with loss {losses / len(f)}, saving')
-    torch.save(model.state_dict(), f'data/model.{ep}.mdl')
-
-    log.info('Validate', rep = True)(f'Validating for EPOCH {ep}')
-    val, yes = validate(model, g, locc, ep)
-    log.info('Validate')(val = val, yes = yes)
-
-    # info('Running Tests')
-    # encode(run_tests(model), _ds.mark)
-
-    log.info('Submit', rep = True)(f'Submitting EPOCH {ep}')
-    auto_submit(describe(EPOCH = ep, LEARNING_RATE = optr.param_groups[0]["lr"]))
-
-    schr.step(val) # (1 - (yes / len(_g)))
-    log.info('scheduler', rep = True)(f'New learning rate = {optr.param_groups[0]["lr"]}')
+export().to_csv('data/submit.csv', index = False)
