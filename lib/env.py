@@ -13,7 +13,7 @@ SPECIAL_DEVICES = True
 TRANSFORM = True
 VALIDATE_RATIO = .7
 WEIGHT_BALANCE = True
-REVERSE_PENALTY = True
+REVERSE_PENALTY = False
 
 _device = 'cpu'
 if SPECIAL_DEVICES:
@@ -24,3 +24,16 @@ info(f'Using {_device} to run')
 
 def env(x: str, default = None):
     return os.getenv(x) or default
+
+def describe(**other) -> str:
+    other = dict(other)
+    ot = '\n'.join([f'{i} -> {j}' for i, j in zip(other.keys(), other.values())])
+    return f'''
+
+BATCH_SIZE = {BATCH_SIZE}
+INITIAL_LEARNING_RATE = {LEARNING_RATE}
+TRANSFORM = {TRANSFORM}
+VALIDATE_RATIO = {VALIDATE_RATIO}
+WEIGHT_BALANCE = {WEIGHT_BALANCE}
+REVERSE_PENALTY = {REVERSE_PENALTY}
+{ot}'''.strip()

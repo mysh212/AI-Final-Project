@@ -66,11 +66,11 @@ for ep in range(EPOCHS):
     val, yes = validate(model, g, locc, ep)
     log.info('Validate')(val = val, yes = yes)
 
-    schr.step(val) # (1 - (yes / len(_g)))
-    log.info('scheduler', rep = True)(f'New learning rate = {optr.param_groups[0]["lr"]}')
-
     # info('Running Tests')
     # encode(run_tests(model), _ds.mark)
 
     log.info('Submit', rep = True)(f'Submitting EPOCH {ep}')
-    auto_submit()
+    auto_submit(describe(EPOCH = ep, LEARNING_RATE = optr.param_groups[0]["lr"]))
+
+    schr.step(val) # (1 - (yes / len(_g)))
+    log.info('scheduler', rep = True)(f'New learning rate = {optr.param_groups[0]["lr"]}')
