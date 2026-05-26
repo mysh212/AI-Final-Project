@@ -6,11 +6,14 @@ import torch
 
 load_dotenv()
 
-BATCH_SIZE = 7
+BATCH_SIZE = 10
 LEARNING_RATE = 1e-4
-EPOCHS = 100
+EPOCHS = 150
 SPECIAL_DEVICES = True
-TRANSFORM = False
+TRANSFORM = True
+VALIDATE_RATIO = .7
+WEIGHT_BALANCE = True
+REVERSE_PENALTY = True
 
 _device = 'cpu'
 if SPECIAL_DEVICES:

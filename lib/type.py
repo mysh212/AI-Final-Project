@@ -6,52 +6,78 @@ from lib.env import device, TRANSFORM
 from dotenv import load_dotenv
 
 import re
+from re import Match
+
+from typing import cast, Sequence
+
 import cv2
 import albumentations as A
+from albumentations import Compose
 
 import torch
 from torch.utils.data import Dataset
+import numpy as np
 
 log = _log('type')
 load_dotenv()
 
 transformation = A.Compose([
+    A.Resize(224, 224),
     A.HorizontalFlip(p=0.5),
     # A.VerticalFlip(p=0.5),
     A.ShiftScaleRotate(shift_limit = .05, scale_limit = .1, rotate_limit = 10, p = 0.5),
     A.RandomBrightnessContrast(p=0.3),
     A.GaussianBlur(p=0.1),
-    A.Normalize(),
+    # A.Normalize(),
     # A.pytorch.ToTensorV2(),
 ])
 
 static_transformation = A.Compose([
+    A.Resize(224, 224),
     # A.HorizontalFlip(p=0.5),
     # A.VerticalFlip(p=0.5),
     # A.ShiftScaleRotate(shift_limit = .05, scale_limit = .1, rotate_limit = 20, p = 0.5),
     # A.RandomBrightnessContrast(p=0.3),
     # A.GaussianBlur(p=0.2),
-    A.Normalize(),
+    # A.Normalize(),
     # A.pytorch.ToTensorV2(),
 ])
 
 class ds(Dataset):
-    def __init__(self, path: str, transformation = transformation if TRANSFORM else static_transformation):
+    def __init__(self, path: str, files: list | None = None, transform: Compose | bool = transformation if TRANSFORM else static_transformation):
         log.debug('Dataset Load')(f'Loading datasets from {path}')
+        if isinstance(transform, bool):
+            transform = transformation if transform else static_transformation
         self.path = path
-        f = ls(path)
+        f = sorted(ls(path))
         self.f = []
-        self.mark = sorted(f.copy())
+        self.mark = f
         self.to = {i: j for j, i in enumerate(f)}
-        self.transformation = transformation
-        for k, i in enumerate(f):
-            log.debug('Dataset Load')(f'Loading datasets from class {i}')
-            self.f.extend([[f'{path}/{i}/{j}', k] for j in ls(f'{path}/{i}') if j.endswith('.png')])
+        self.transformation = transform
+        
+        if files is not None:
+            self.f = files
+        else:
+            self.f = []
+            for k, i in enumerate(f):
+                log.debug('Dataset Load')(f'Loading datasets from class {i}')
+                class_path = f'{path}/{i}'
+                self.f.extend([[f'{path}/{i}/{j}', k] for j in ls(class_path) if j.endswith('.png')])
+        
         log.debug('Dataset Load')(f'Dynamically loaded {len(self.f)} datas')
         return
+    
+    def get_weight(self, op: Sequence[float | int] | torch.Tensor | None = None) -> torch.Tensor:
+        mark = [0 for _ in range(len(self.mark))]
+        for _, j in self.f:
+            mark[j] += 1
+        return torch.tensor([1 / (i + 1e-6) for i in mark]) * (torch.tensor(op) if op is not None else torch.ones(len(self.mark)))
 
     def __getitem__(self, index):
-        return torch.tensor(self.transformation(image = cv2.imread(self.f[index][0], cv2.IMREAD_GRAYSCALE))['image']) / 255.0 * 2048 - 1024, self.onehot(self.f[index][1])
+        image = cv2.imread(self.f[index][0], cv2.IMREAD_GRAYSCALE)
+        image = self.transformation(image=image)['image']
+        image = (image.astype(np.float32) / 255.0 * 2048) - 1024
+        return torch.tensor(image), self.onehot(self.f[index][1])
 
     def __len__(self):
         return len(self.f)
@@ -60,8 +86,15 @@ class ds(Dataset):
         return self.mark[x]
     
     @staticmethod
+    def hot_one(x: torch.Tensor) -> int:
+        for j, i in enumerate(x):
+            if i != 0:
+                return j
+        return len(x)
+    
+    @staticmethod
     def one_hot(x: int, len: int, dtype = torch.float32):
-        pre = torch.zeros(len, device = device, dtype = dtype)
+        pre = torch.zeros(len, dtype = dtype)
         pre[x] = 1
         return pre
 
@@ -78,7 +111,10 @@ class ts(Dataset):
         return
 
     def __getitem__(self, index):
-        return torch.tensor(self.transformation(image = cv2.imread(self.f[index], cv2.IMREAD_GRAYSCALE))['image']) / 255.0 * 2048 - 1024, re.match(r'^.*/(\d+)\..+$', self.f[index]).groups()[0]
+        image = cv2.imread(self.f[index], cv2.IMREAD_GRAYSCALE)
+        image = self.transformation(image=image)['image']
+        image = (image.astype(np.float32) / 255.0 * 2048) - 1024
+        return torch.tensor(image), cast(Match[str], re.match(r'^.*/(\d+)\..+$', self.f[index])).groups()[0]
 
     def __len__(self):
         return len(self.f)

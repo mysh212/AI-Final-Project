@@ -35,7 +35,8 @@ def train(model, f, locc, optr, ep):
     for j, (img, ans) in enumerate(bar):
         img = img.unsqueeze(1)
         img = img.to(device)
-        
+        ans = ans.to(device)
+
         optr.zero_grad()
         pred = model(img)
 
@@ -49,18 +50,17 @@ def train(model, f, locc, optr, ep):
 
     return losses
 
-def validate(model, g, ep):
+def validate(model, g, locc, ep):
     bar = tqdm(g)
     losses = 0.0
     yes = 0
-
-    locc = nn.BCEWithLogitsLoss()
 
     model.eval()
     with torch.no_grad():
         for j, (img, ans) in enumerate(bar):
             img = img.unsqueeze(1)
             img = img.to(device)
+            ans = ans.to(device)
 
             pred = model(img)
 
