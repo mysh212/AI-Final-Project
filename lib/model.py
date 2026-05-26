@@ -40,6 +40,7 @@ def train(model, f, locc, optr, ep):
         optr.zero_grad()
         pred = model(img)
 
+        # error(pred, ans)
         loss = locc(pred, ans)
         loss.backward()
 

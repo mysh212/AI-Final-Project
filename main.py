@@ -26,7 +26,7 @@ filter = re.compile(r'^.*/(\d+)_\d+\.png$')
 
 patient = defaultdict(list)
 
-for i, j in _ds.f[:1000]:
+for i, j in _ds.f:
     label = filter.findall(i)[0]
     patient[label].append([i, j])
 
@@ -47,7 +47,7 @@ g = DataLoader(_g, batch_size = BATCH_SIZE, shuffle = False)
 
 model = get_model(_ds.mark.__len__())
 
-locc = nn.CrossEntropyLoss(weight = _f.get_weight(list(range(len(_f.mark)))[::-1] if REVERSE_PENALTY else None) if WEIGHT_BALANCE else None)
+locc = nn.CrossEntropyLoss(weight = _f.get_weight(list(range(len(_f.mark)))[::-1] if REVERSE_PENALTY else None).to(device) if WEIGHT_BALANCE else None)
 optr = torch.optim.Adam(model.parameters(), lr = LEARNING_RATE)
 schr = torch.optim.lr_scheduler.ReduceLROnPlateau(optr, 'min', factor = 0.1, patience = 3, min_lr = 1e-5)
 
