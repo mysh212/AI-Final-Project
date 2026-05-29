@@ -55,7 +55,7 @@ for ep in range(STATIC_ROUND):
     for n, p in model.named_parameters():
         p.requires_grad = n.startswith(name)
 
-    log.info('Train', rep = True)(f'Staticly training EPOCH {ep}')
+    log.info('Train', rep = True)(f'Statically training EPOCH {ep}')
     losses = train(model, f, locc, optr, ep)
 
     info(f'Finished training EPOCH {ep} with loss {losses / len(f)}, saving')
