@@ -46,13 +46,14 @@ def write(filename: str, ans: str):
     aans.append(dict(filename = filename, label = ans))
     return
 
-filter = re.compile(r'^.*/((.+)\.(?:png|jpg))$')
+filter = re.compile(r'^(?:.*/)?((.+)\.(?:png|jpg))$')
 
 def export():
     df = pd.DataFrame(aans)
-    df['id'] = df.filename.map(lambda x: filter.findall(x)[0][1])
-    df['filename'] = df.filename.map(lambda x: filter.findall(x)[0][1])
+    df['id'] = pd.to_numeric(df.filename.map(lambda x: filter.findall(x)[0][1]))
+    df['filename'] = df.filename.map(lambda x: filter.findall(x)[0][0])
     df = df.sort_values(['id'])
+    print(df)
     return df
 
 for i in tqdm(ls('data/test')):
