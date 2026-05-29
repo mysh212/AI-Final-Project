@@ -11,7 +11,7 @@ from tqdm import tqdm
 log = _log('model')
 
 def get_model(feature_count: int):
-    model = xray.models.get_model("densenet121-res224-chex")
+    model = xray.models.DenseNet(weights="densenet121-res224-all")
     debug(model.classifier.in_features)
     model.classifier = nn.Linear(model.classifier.in_features, feature_count)
     model.op_threshs = None
