@@ -8,6 +8,10 @@ import torchxrayvision as xray
 import torch
 from torch import nn
 from tqdm import tqdm
+
+from transformers import AutoImageProcessor
+
+processor = AutoImageProcessor.from_pretrained("codewithdark/vit-chest-xray")
 log = _log('model')
 
 def get_model(feature_count: int):
@@ -36,6 +40,8 @@ def train(model, f, locc, optr, ep):
         img = img.unsqueeze(1)
         img = img.to(device)
         ans = ans.to(device)
+
+        # img = processor(images = img)
 
         optr.zero_grad()
         pred = model(img)
