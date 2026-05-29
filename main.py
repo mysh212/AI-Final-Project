@@ -50,10 +50,25 @@ model = get_model(_ds.mark.__len__())
 locc = nn.CrossEntropyLoss(weight = _f.get_weight(list(range(len(_f.mark)))[::-1] if REVERSE_PENALTY else None).to(device) if WEIGHT_BALANCE else None)
 optr = torch.optim.Adam(model.parameters(), lr = LEARNING_RATE)
 schr = torch.optim.lr_scheduler.ReduceLROnPlateau(optr, 'min', factor = 0.1, patience = 3, min_lr = 1e-5)
+for ep in range(STATIC_ROUND):
+    name, _ = next((n, m) for n, m in list(model.named_modules())[::-1] if isinstance(m, nn.Sequential))
+    for n, p in model.named_parameters():
+        p.requires_grad = n.startswith(name)
+
+    log.info('Train', rep = True)(f'Staticly training EPOCH {ep}')
+    losses = train(model, f, locc, optr, ep)
+
+    info(f'Finished training EPOCH {ep} with loss {losses / len(f)}, saving')
+    log.info('Train')(f'Finished training EPOCH {ep} with loss {losses / len(f)}, saving')
+    torch.save(model.state_dict(), f'data/model.{ep}.mdl')
+
+for p in model.parameters():
+    p.requires_grad = True
 
 for ep in range(EPOCHS):
     if exist(f'data/model.{ep}.mdl'):
         continue
+
     log.info('Train', rep = True)(f'Training EPOCH {ep}')
 
     losses = train(model, f, locc, optr, ep)

@@ -16,8 +16,10 @@ log = _log('model')
 
 def get_model(feature_count: int):
     model = xray.models.get_model("densenet121-res224-chex")
-    debug(model.classifier.in_features)
-    model.classifier = nn.Linear(model.classifier.in_features, feature_count)
+    name, layer = next((n, m) for n, m in list(model.named_modules())[::-1] if isinstance(m, nn.Linear))
+    *path, attr = name.split('.'); p = model
+    for i in path: p = getattr(p, i)
+    setattr(p, attr, nn.Sequential(nn.Linear(layer.in_features, 512), nn.ReLU(), nn.Dropout(0.2), nn.Linear(512, feature_count)))
     model.op_threshs = None
     model = model.to(device)
 
