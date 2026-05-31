@@ -51,6 +51,9 @@ locc = nn.CrossEntropyLoss(weight = _f.get_weight(list(range(len(_f.mark)))[::-1
 optr = torch.optim.Adam(model.parameters(), lr = LEARNING_RATE)
 schr = torch.optim.lr_scheduler.ReduceLROnPlateau(optr, 'min', factor = 0.1, patience = 3, min_lr = 1e-5)
 for ep in range(STATIC_ROUND):
+    if exist(f'data/model.{ep}.mdl'):
+        continue
+
     name, _ = next((n, m) for n, m in list(model.named_modules())[::-1] if isinstance(m, nn.Sequential))
     for n, p in model.named_parameters():
         p.requires_grad = n.startswith(name)
