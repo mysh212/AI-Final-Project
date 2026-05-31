@@ -11,9 +11,6 @@ from torch import nn
 from tqdm import tqdm
 import torchvision
 
-from transformers import AutoImageProcessor
-
-processor = AutoImageProcessor.from_pretrained("codewithdark/vit-chest-xray")
 log = _log('model')
 
 def get_model(feature_count: int):
@@ -21,13 +18,34 @@ def get_model(feature_count: int):
 #        error('Please run `init.sh` first.')
 #        quit(1)
 
-    model = mds(15).to(device)
+    model = mds(feature_count).to(device)
+    
+    checkpoint = torch.load('source/model.pth.tar', map_location = device)
+    state_dict = checkpoint['state_dict']
+    
+    new_state_dict = {}
+    for k, v in state_dict.items():
+        name = k
+        if name.startswith('module.'):
+            name = name[7:]
+        
+        name = name.replace('.norm.1.', '.norm1.')
+        name = name.replace('.norm.2.', '.norm2.')
+        name = name.replace('.conv.1.', '.conv1.')
+        name = name.replace('.conv.2.', '.conv2.')
+        
+        if name in model.state_dict() and model.state_dict()[name].shape != v.shape:
+            continue
+
+        new_state_dict[name] = v
+        
+    model.load_state_dict(new_state_dict, strict = False)
 
     for ep in range(EPOCHS + 1):
         if not exist(f'data/model.{ep}.mdl'):
             if ep == 0:
                 break
-            model.load_state_dict(torch.load(f'data/model.{ep - 1}.mdl', weights_only = True, map_location = device)['state_dict'])
+            model.load_state_dict(torch.load(f'data/model.{ep - 1}.mdl', weights_only = True, map_location = device))
             log.info('Model Load', rep = True)(f'Weights loaded from EPOCH {ep - 1}')
             break
 
@@ -67,7 +85,7 @@ def validate(model, g, locc, ep):
     model.eval()
     with torch.no_grad():
         for j, (img, ans) in enumerate(bar):
-            img = img.unsqueeze(1)
+            img = img.permute(0, 3, 1, 2)
             img = img.to(device)
             ans = ans.to(device)
 
