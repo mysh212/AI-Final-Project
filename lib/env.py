@@ -16,7 +16,7 @@ WEIGHT_BALANCE = True
 REVERSE_PENALTY = False
 STATIC_ROUND = 5
 RELU = False
-LABEL = 'Ver 3.0 - Static Training'
+LABEL = 'Ver 3.0 - Branch CheXNet - Linear'
 
 _device = 'cpu'
 if SPECIAL_DEVICES:
