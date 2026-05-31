@@ -1,3 +1,6 @@
 [submodule "core"]
 	path = core
 	url = https://github.com/mysh212/python_core
+[submodule "source"]
+	path = source
+	url = https://github.com/arnoweng/CheXNet/

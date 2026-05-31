@@ -3,11 +3,13 @@ from core.log import log as _log
 
 from lib.env import device, EPOCHS, BATCH_SIZE, RELU
 
-import torchxrayvision as xray
+# import torchxrayvision as xray
+from source.model import DenseNet121 as mds
 
 import torch
 from torch import nn
 from tqdm import tqdm
+import torchvision
 
 from transformers import AutoImageProcessor
 
@@ -15,19 +17,17 @@ processor = AutoImageProcessor.from_pretrained("codewithdark/vit-chest-xray")
 log = _log('model')
 
 def get_model(feature_count: int):
-    model = xray.models.get_model("densenet121-res224-chex")
-    name, layer = next((n, m) for n, m in list(model.named_modules())[::-1] if isinstance(m, nn.Linear))
-    *path, attr = name.split('.'); p = model
-    for i in path: p = getattr(p, i)
-    setattr(p, attr, nn.Sequential(nn.Linear(layer.in_features, 512), nn.ReLU(), nn.Dropout(0.2), nn.Linear(512, feature_count)) if RELU else nn.Sequential(nn.Linear(layer.in_features, feature_count)))
-    model.op_threshs = None
-    model = model.to(device)
+#    if not exist('data/model.0.mdl'):
+#        error('Please run `init.sh` first.')
+#        quit(1)
+
+    model = mds(15).to(device)
 
     for ep in range(EPOCHS + 1):
         if not exist(f'data/model.{ep}.mdl'):
             if ep == 0:
                 break
-            model.load_state_dict(torch.load(f'data/model.{ep - 1}.mdl', weights_only = True))
+            model.load_state_dict(torch.load(f'data/model.{ep - 1}.mdl', weights_only = True, map_location = device)['state_dict'])
             log.info('Model Load', rep = True)(f'Weights loaded from EPOCH {ep - 1}')
             break
 
@@ -39,7 +39,7 @@ def train(model, f, locc, optr, ep):
 
     model.train()
     for j, (img, ans) in enumerate(bar):
-        img = img.unsqueeze(1)
+        img = img.permute(0, 3, 1, 2)
         img = img.to(device)
         ans = ans.to(device)
 

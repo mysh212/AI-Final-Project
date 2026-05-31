@@ -74,7 +74,7 @@ class ds(Dataset):
         return torch.tensor([1 / (i + 1e-6) for i in mark]) * (torch.tensor(op) if op is not None else torch.ones(len(self.mark)))
 
     def __getitem__(self, index):
-        image = cv2.imread(self.f[index][0], cv2.IMREAD_GRAYSCALE)
+        image = cv2.imread(self.f[index][0])
         image = self.transformation(image=image)['image']
         image = (image.astype(np.float32) / 255.0 * 2048) - 1024
         return torch.tensor(image), self.onehot(self.f[index][1])
@@ -111,7 +111,7 @@ class ts(Dataset):
         return
 
     def __getitem__(self, index):
-        image = cv2.imread(self.f[index], cv2.IMREAD_GRAYSCALE)
+        image = cv2.imread(self.f[index])
         image = self.transformation(image=image)['image']
         image = (image.astype(np.float32) / 255.0 * 2048) - 1024
         return torch.tensor(image), cast(Match[str], re.match(r'^.*/(\d+)\..+$', self.f[index])).groups()[0]
