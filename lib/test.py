@@ -22,7 +22,7 @@ def run_tests(model) -> dict:
         img = img.permute(0, 3, 1, 2).contiguous()
         img = img.to(device)
 
-        ans = model(img)
+        ans = model(img).logits
         for i, j in zip(path, torch.argmax(ans, dim = 1)):
             aans[i] = j.item()
 

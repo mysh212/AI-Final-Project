@@ -46,7 +46,7 @@ def train(model, f, locc, optr, ep):
         # img = processor(images = img)
 
         optr.zero_grad()
-        pred = model(img)
+        pred = model(img).logits
 
         # error(pred, ans)
         loss = locc(pred, ans)
@@ -71,7 +71,7 @@ def validate(model, g, locc, ep):
             img = img.to(device)
             ans = ans.to(device)
 
-            pred = model(img)
+            pred = model(img).logits
 
             loss = locc(pred, ans)
             losses += loss.item()
