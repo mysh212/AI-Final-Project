@@ -19,7 +19,7 @@ def run_tests(model) -> dict:
     aans = {}
     log.info('Run Tests')(f'Start running tests')
     for img, path in tqdm(f):
-        img = img.unsqueeze(1)
+        img = img.permute(0, 3, 1, 2).contiguous()
         img = img.to(device)
 
         ans = model(img)

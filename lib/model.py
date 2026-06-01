@@ -39,7 +39,7 @@ def train(model, f, locc, optr, ep):
 
     model.train()
     for j, (img, ans) in enumerate(bar):
-        img = img.unsqueeze(1)
+        img = img.permute(0, 3, 1, 2).contiguous()
         img = img.to(device)
         ans = ans.to(device)
 
@@ -67,7 +67,7 @@ def validate(model, g, locc, ep):
     model.eval()
     with torch.no_grad():
         for j, (img, ans) in enumerate(bar):
-            img = img.unsqueeze(1)
+            img = img.permute(0, 3, 1, 2).contiguous()
             img = img.to(device)
             ans = ans.to(device)
 
