@@ -20,6 +20,7 @@ data
 data/
 log/
 logs/
+log
 
 *.pdf
 

@@ -9,13 +9,13 @@ import torch
 from torch import nn
 from tqdm import tqdm
 
-from transformers import AutoImageProcessor
+from transformers import AutoImageProcessor, AutoModelForImageClassification
 
-processor = AutoImageProcessor.from_pretrained("codewithdark/vit-chest-xray")
+processor = AutoImageProcessor.from_pretrained("shreydan/CheXpert-5-convnextv2-tiny-384")
 log = _log('model')
 
 def get_model(feature_count: int):
-    model = xray.models.get_model("densenet121-res224-chex")
+    model = AutoModelForImageClassification.from_pretrained("shreydan/CheXpert-5-convnextv2-tiny-384")
     name, layer = next((n, m) for n, m in list(model.named_modules())[::-1] if isinstance(m, nn.Linear))
     *path, attr = name.split('.'); p = model
     for i in path: p = getattr(p, i)
