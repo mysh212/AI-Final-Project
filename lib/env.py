@@ -17,6 +17,7 @@ REVERSE_PENALTY = False
 STATIC_ROUND = 5
 RELU = False
 LABEL = 'Ver 3.0 - Branch CheXNet - Linear'
+TTA_TIMES = 4
 
 _device = 'cpu'
 if SPECIAL_DEVICES:
@@ -42,4 +43,5 @@ REVERSE_PENALTY = {REVERSE_PENALTY}
 STATIC_ROUND = {STATIC_ROUND}
 RELU = {RELU}
 LABEL = {LABEL}
+TTA_TIMES = {TTA_TIMES}
 {ot}'''.strip()

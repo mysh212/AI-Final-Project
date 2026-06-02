@@ -102,19 +102,39 @@ class ds(Dataset):
         return self.one_hot(x, len(self.mark))
     
 class ts(Dataset):
-    def __init__(self, path: str, transformation = static_transformation):
+    def __init__(self, path: str, transform: bool = False):
         log.debug('Test Dataset Load')(f'Loading datasets from {path}')
         self.path = path
         self.f = [f'{path}/{i}' for i in ls(path)]
-        self.transformation = transformation
+        self.transformation = transformation if transform else static_transformation
         log.debug('Test Dataset Load')(f'Dynamically loaded {len(self.f)} datas')
         return
 
-    def __getitem__(self, index):
-        image = cv2.imread(self.f[index])
+    def _read_img(self, path: str) -> np.ndarray:
+        image = cv2.imread(path)
         image = self.transformation(image=image)['image']
         image = (image.astype(np.float32) / 255.0 * 2048) - 1024
-        return torch.tensor(image), cast(Match[str], re.match(r'^.*/(\d+)\..+$', self.f[index])).groups()[0]
+        return image
+
+    def __getitem__(self, index):
+        return torch.tensor(self._read_img(self.f[index])), cast(Match[str], re.match(r'^.*/(\d+)\..+$', self.f[index])).groups()[0]
+
+    @staticmethod
+    def get_variant(img):
+        return transformation(image = img)['image']
+    
+    @staticmethod
+    def batch_varint(imgs):
+        imgs = (imgs + 1024) / 2048 * 255
+        imgs = imgs.clone().permute(0, 2, 3, 1)
+        tmp = imgs.cpu().numpy()
+        for i in range(tmp.shape[0]):
+            tmp[i] = transformation(image = tmp[i])['image']
+        tmp = (tmp.astype(np.float32) / 255.0 * 2048) - 1024
+        return torch.tensor(tmp, device = device).permute(0, 3, 1, 2)
+
+    def variant(self, index):
+        return self.get_variant(self._read_img(self.f[index]))
 
     def __len__(self):
         return len(self.f)
