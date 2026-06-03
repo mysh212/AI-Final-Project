@@ -16,7 +16,7 @@ WEIGHT_BALANCE = True
 REVERSE_PENALTY = False
 STATIC_ROUND = 5
 RELU = False
-LABEL = 'Ver 3.0 - Branch CheXNet - Linear'
+LABEL = 'Ver 4.0 - Branch CheXNet - Linear - TTA'
 TTA_TIMES = 4
 
 _device = 'cpu'

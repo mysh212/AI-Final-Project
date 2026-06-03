@@ -24,8 +24,8 @@ def run_tests(model) -> dict:
 
         ans = model(img)
         for _ in range(TTA_TIMES):
-            img = _f.batch_varint(img)
-            ans += model(img)
+            nimg = _f.batch_varint(img)
+            ans += model(nimg)
 
         # pre = pre / (TTA_TIMES + 1)
         for i, j in zip(path, torch.argmax(ans, dim = 1)):
