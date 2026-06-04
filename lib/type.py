@@ -1,7 +1,7 @@
 from core.general import *
 from core.log import log as _log
 
-from lib.env import device, TRANSFORM
+from lib.env import device, TRANSFORM, N
 
 from dotenv import load_dotenv
 
@@ -22,7 +22,7 @@ log = _log('type')
 load_dotenv()
 
 transformation = A.Compose([
-    A.Resize(224, 224),
+    A.Resize(N, N),
     A.HorizontalFlip(p=0.5),
     # A.VerticalFlip(p=0.5),
     A.Affine(translate_percent={"x": (-0.05, 0.05), "y": (-0.05, 0.05)}, scale=(0.9, 1.1), rotate=(-10, 10), p=0.5),
@@ -33,7 +33,7 @@ transformation = A.Compose([
 ])
 
 static_transformation = A.Compose([
-    A.Resize(224, 224),
+    A.Resize(N, N),
     # A.HorizontalFlip(p=0.5),
     # A.VerticalFlip(p=0.5),
     # A.ShiftScaleRotate(shift_limit = .05, scale_limit = .1, rotate_limit = 20, p = 0.5),
