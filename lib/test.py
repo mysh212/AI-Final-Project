@@ -24,7 +24,7 @@ def predict(model, imgs):
 
     ans = None
     if models is None:
-        models = [[i, torch.load(f'final/base/{i}')] for i in ls('final/base') if i.endswith('.mdl')]
+        models = [[i, torch.load(f'final/base/{i}', weights_only = False)] for i in ls('final/base') if i.endswith('.mdl')]
         for name, model in models:
             model.load_state_dict(torch.load(f'final/var/{name}'))
 
