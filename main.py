@@ -46,6 +46,9 @@ f = DataLoader(_f, batch_size = BATCH_SIZE, shuffle = True)
 g = DataLoader(_g, batch_size = BATCH_SIZE, shuffle = False)
 
 model = get_model(_ds.mark.__len__())
+if not exist('data/base.mdl'):
+    warning('Base model not found, saving')
+    torch.save('data/base.mdl', model)
 
 locc = nn.CrossEntropyLoss(weight = _f.get_weight(list(range(len(_f.mark)))[::-1] if REVERSE_PENALTY else None).to(device) if WEIGHT_BALANCE else None)
 optr = torch.optim.Adam(model.parameters(), lr = LEARNING_RATE)
