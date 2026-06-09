@@ -21,6 +21,7 @@ data/
 log
 log/
 logs/
+final
 
 *.pdf
 
