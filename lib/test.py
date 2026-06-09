@@ -1,7 +1,7 @@
 from core.general import *
 from core.log import log as _log
 
-from lib.env import BATCH_SIZE, device
+from lib.env import BATCH_SIZE, TTA_TIMES, device
 from lib.type import ts
 
 import torch
@@ -23,6 +23,11 @@ def run_tests(model) -> dict:
         img = img.to(device)
 
         ans = model(img)
+        for _ in range(TTA_TIMES):
+            nimg = _f.batch_varint(img)
+            ans += model(nimg)
+
+        # pre = pre / (TTA_TIMES + 1)
         for i, j in zip(path, torch.argmax(ans, dim = 1)):
             aans[i] = j.item()
 
