@@ -6,7 +6,7 @@ import torch
 
 load_dotenv()
 
-BATCH_SIZE = 10
+BATCH_SIZE = 7
 LEARNING_RATE = 1e-4
 EPOCHS = 150
 SPECIAL_DEVICES = True
@@ -19,6 +19,7 @@ RELU = False
 LABEL = 'Ver 4.0 - Branch CheXNet - Linear - TTA'
 TTA_TIMES = 0
 N = 512
+VOTE = True
 
 _device = 'cpu'
 if SPECIAL_DEVICES:
@@ -46,4 +47,5 @@ RELU = {RELU}
 LABEL = {LABEL}
 TTA_TIMES = {TTA_TIMES}
 N = {N}
+VOTE = {VOTE}
 {ot}'''.strip()
