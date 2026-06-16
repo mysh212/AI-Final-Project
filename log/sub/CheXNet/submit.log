@@ -1,0 +1,601 @@
+INFO  | 2026/05/20 01:54:17.155908 | [Submit] -> {"description": "ysh", "data": "Submitting"}
+INFO  | 2026/05/20 01:55:17.282302 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/20 10:12:48.146018 | [Submit] -> {"description": 42, "data": "Submitting"}
+INFO  | 2026/05/20 19:37:39.173468 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/20 19:38:39.392475 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/20 20:49:42.246960 | [Submit] -> {"description": 53, "data": "Submitting"}
+INFO  | 2026/05/21 00:56:12.257112 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/21 09:25:30.722985 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/21 12:45:54.544940 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/21 12:46:55.604469 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/21 12:58:41.661177 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/21 12:59:44.145910 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/22 10:30:21.190286 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/22 10:32:19.365127 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/22 14:18:54.324467 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/22 17:47:03.164821 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/22 21:56:13.564567 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/22 22:07:46.230117 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/22 22:19:18.409426 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/22 22:30:49.563862 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/22 22:42:20.850367 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/22 22:53:53.162485 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/22 23:05:24.836731 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/22 23:16:56.126734 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/22 23:28:28.257786 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/22 23:40:15.905611 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/22 23:51:47.189829 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 00:03:19.207917 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 00:14:50.685412 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 00:26:20.757268 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 00:37:51.601998 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 00:49:23.004826 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 01:00:53.999100 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 01:12:24.739059 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 01:23:57.044110 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 01:35:29.194909 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 01:47:01.522158 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 01:58:33.781443 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 02:10:05.360120 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 02:21:37.827239 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 02:33:10.293500 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 02:44:43.157021 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 02:56:15.689059 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 03:07:48.475985 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 03:19:19.941200 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 03:30:52.783790 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 03:42:24.823197 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 03:53:57.353744 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 04:05:28.789052 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 04:17:01.571926 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 04:28:33.238268 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 04:40:05.746691 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 04:51:38.234371 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 05:03:10.873252 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 05:14:43.208668 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 05:26:11.862254 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 05:37:41.016246 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 05:49:09.717548 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 06:00:38.189674 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 06:12:06.144613 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 06:23:38.237230 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 06:35:10.884125 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 06:46:43.496485 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 06:58:15.997302 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 07:09:48.582554 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 07:21:20.594157 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 07:32:52.765359 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 07:44:24.330236 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 07:55:57.135541 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 08:07:29.011823 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 08:19:01.397142 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 08:30:33.805706 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 08:42:05.666480 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 08:53:38.496246 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 09:10:32.774336 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 09:22:04.290814 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 09:33:35.731512 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 09:45:07.555602 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 09:56:39.014759 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 10:08:10.550267 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 10:19:43.669432 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 10:31:15.199614 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 10:42:46.665672 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 10:54:18.864292 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 11:05:50.811949 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 11:17:22.824168 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 11:28:53.215192 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 11:40:24.979841 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 11:51:58.303175 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 12:03:29.934480 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 12:15:01.173122 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 12:26:32.261476 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 12:38:04.400490 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 12:49:35.469944 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 13:01:07.776951 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 13:12:40.438532 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 13:24:11.871937 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 13:35:43.051114 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 13:47:15.306175 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 13:58:46.711748 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 14:10:18.507810 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 14:21:50.999283 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 14:33:22.645111 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 14:45:01.257544 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 14:56:36.280604 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 15:08:11.248772 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 15:19:45.473269 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 15:31:20.940615 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 15:42:54.841281 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 15:54:29.002248 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 16:06:02.967116 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 16:17:37.662856 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 16:29:12.489920 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 16:40:46.576416 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 16:52:38.918501 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 17:04:12.992554 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 17:15:46.453531 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 17:27:19.864314 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 17:38:54.511895 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 17:50:29.818772 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 18:02:06.244583 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 18:13:41.659187 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 18:25:16.503616 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 18:36:51.376378 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 18:48:27.831829 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 19:00:03.794453 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 19:11:39.341240 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 19:23:15.066777 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 19:34:50.106630 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 19:46:24.827573 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 19:58:00.033631 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 20:09:35.167683 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 20:21:10.764435 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 20:32:46.601952 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 20:44:22.260757 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 20:55:58.385506 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 21:07:38.708622 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 21:19:13.318351 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 21:30:48.567576 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 21:42:24.490665 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 21:54:02.544034 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 22:05:46.714916 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 22:17:27.709179 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 22:29:08.008115 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 22:40:42.668213 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 22:52:17.421570 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 23:04:06.781856 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 23:15:41.468668 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 23:27:15.914151 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 23:39:19.908797 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/23 23:50:55.831007 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 00:02:33.386839 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 00:14:05.533336 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 00:25:40.085558 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 00:37:16.204238 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 00:48:53.150354 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 01:00:31.676204 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 01:12:09.490458 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 01:23:51.983487 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 01:35:27.061417 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 01:47:02.702123 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 01:58:43.318718 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 02:10:18.923788 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 02:21:58.085878 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 02:33:33.555802 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 02:45:06.549533 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 02:56:43.551901 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 03:08:21.390616 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 03:19:57.413130 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 03:31:32.804457 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 03:43:06.996816 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 03:54:42.638003 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 04:06:17.064434 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 04:17:51.800716 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 09:34:07.294911 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 09:45:35.231030 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 09:57:02.448690 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 10:08:30.536845 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 10:19:58.488925 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 10:31:25.656079 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 10:42:53.933809 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 10:54:21.513946 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 11:05:49.056711 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 11:17:16.943496 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 11:28:44.775207 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 11:40:12.456613 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 11:51:40.200426 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 12:03:07.286067 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 12:14:35.124986 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 12:26:06.942748 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 12:37:36.248551 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 12:49:04.364779 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 13:00:32.073568 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 13:12:00.047535 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 13:23:28.042657 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 13:34:55.659558 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 13:46:25.231506 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 13:57:53.790865 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 14:09:21.861500 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 14:20:49.563299 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 14:32:19.401434 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 14:43:46.009252 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 14:55:14.121114 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 15:06:42.148346 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 15:18:18.752819 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 15:29:47.440154 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 15:41:16.033797 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 15:52:44.834000 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 16:04:14.166276 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 16:15:41.940006 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 16:27:09.826248 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 16:38:38.136059 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 16:50:07.780513 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 17:01:42.328070 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 17:13:12.276145 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 17:24:40.739203 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 17:36:09.514412 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 17:47:38.411929 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 17:59:05.134918 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 18:10:33.257481 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 18:22:00.792182 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 18:33:28.453804 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 18:44:56.899052 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 18:56:25.566287 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 19:07:53.578984 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 19:19:21.325479 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 19:30:48.475866 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 19:42:16.465098 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 19:53:45.587327 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 20:05:12.379442 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 20:16:42.976002 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 20:28:11.152328 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 20:39:39.036258 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 20:51:07.255099 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 21:02:35.949448 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 21:14:03.630651 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 21:25:31.308117 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 21:36:59.010450 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 21:48:27.332594 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 21:59:55.358161 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 22:11:23.150430 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 22:23:33.334757 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 22:34:59.698610 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 22:46:24.733230 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 22:57:53.974284 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 23:09:21.884608 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 23:20:49.754528 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 23:32:18.139658 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 23:43:46.325915 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/24 23:55:13.158545 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 00:06:41.199540 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 00:18:08.739110 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 00:29:35.695916 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 00:41:02.341089 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 00:52:29.937139 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 01:03:58.178971 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 01:15:26.183250 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 01:26:53.861797 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 01:38:21.008438 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 01:49:49.136179 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 02:01:16.905811 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 02:12:45.016456 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 02:24:13.645796 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 02:35:40.716288 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 02:47:09.353225 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 02:58:38.402085 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 03:10:06.759364 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 03:21:34.777716 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 03:33:02.128576 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 03:44:29.951836 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 03:55:58.023436 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 04:07:26.346982 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 04:18:54.290867 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 04:30:22.847592 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 12:49:48.166478 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 13:00:38.174597 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 13:11:26.474784 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 13:22:15.668053 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 13:33:05.669567 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 13:43:54.567449 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 13:54:43.866409 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 14:05:33.529176 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 14:16:22.726076 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 14:27:12.264269 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 14:38:05.729517 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 14:48:54.730024 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 14:59:44.125611 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 15:10:33.439112 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 15:21:22.259934 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 15:32:13.192649 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 15:43:03.718551 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 15:54:01.167413 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 16:04:49.726292 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 16:15:37.972401 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 16:26:31.516192 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 16:37:21.080688 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 16:48:09.677964 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 16:59:02.939997 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 17:10:04.320852 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 17:21:08.001702 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 17:32:07.108466 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 17:43:02.708634 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 17:53:58.077706 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 18:04:56.413846 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 18:15:57.474353 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 18:27:02.323413 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 18:38:03.638333 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 18:49:24.415577 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 19:00:38.329792 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 19:11:35.174933 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 19:22:33.467201 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 19:34:56.300902 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 19:46:21.782437 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 19:57:15.758334 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 20:10:21.149361 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 20:21:48.779510 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 20:32:44.936147 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 20:44:01.643622 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 20:54:59.227784 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 21:05:52.531155 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 21:16:47.798145 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 21:27:43.478329 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 21:38:39.401677 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 21:49:36.341815 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 22:00:33.500600 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 22:11:32.757544 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 22:22:31.646712 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 22:33:29.802569 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 22:44:27.427114 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 22:55:24.365518 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 23:06:22.463412 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 23:17:21.124278 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 23:28:19.800873 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 23:39:17.177931 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/25 23:50:15.804267 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/26 00:01:12.222366 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/26 00:12:09.110233 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/26 00:23:08.807186 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/26 00:34:05.309360 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/26 00:45:04.183114 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/26 00:56:02.270570 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/26 01:06:58.653153 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/26 01:17:58.851461 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/26 01:28:59.952847 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/26 01:39:59.369837 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/26 01:51:01.671227 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/26 02:01:59.724667 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/26 02:12:59.502156 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/26 02:24:01.048337 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/26 02:35:00.088476 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/26 02:45:59.327647 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/26 02:56:59.423754 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/26 03:07:57.966017 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/26 03:18:58.715278 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/26 03:29:58.715643 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/26 03:40:58.595827 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/26 03:52:02.754446 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/26 04:02:59.892619 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/26 04:13:59.614274 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/26 04:24:59.505966 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/26 04:35:57.663535 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/26 04:46:56.579363 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/26 04:57:59.553315 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/26 05:09:00.337504 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/26 05:20:03.291276 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/26 05:31:04.226906 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/26 05:42:05.267436 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/26 05:53:08.678838 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/26 06:04:08.676770 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/26 06:15:10.444506 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/26 06:26:07.802561 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/26 06:37:05.827858 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/26 06:48:06.313743 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/26 06:59:08.852877 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/26 10:12:01.715193 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/26 10:23:03.138444 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/26 10:34:03.707390 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/26 10:45:08.597175 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/26 10:56:12.938896 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/26 11:07:05.937667 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/26 11:18:00.162551 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/26 11:28:55.372473 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/26 11:39:49.754016 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/26 11:50:45.257206 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/26 12:01:41.768544 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/26 12:12:37.933498 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/26 12:23:45.627896 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/26 12:35:12.588137 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/26 12:46:38.143284 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/26 12:58:05.980126 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/26 13:09:29.879189 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/26 13:20:52.006916 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/26 13:32:20.192387 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/26 13:43:40.348863 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/26 13:55:06.815738 | [Submit] -> {"description": "", "data": "Submitting"}
+INFO  | 2026/05/26 16:30:04.952773 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 0\nLEARNING_RATE -> 0.0001", "data": "Submitting"}
+INFO  | 2026/05/26 16:40:26.178263 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 1\nLEARNING_RATE -> 0.0001", "data": "Submitting"}
+INFO  | 2026/05/26 16:50:48.298207 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 2\nLEARNING_RATE -> 0.0001", "data": "Submitting"}
+INFO  | 2026/05/26 17:01:12.938894 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 3\nLEARNING_RATE -> 0.0001", "data": "Submitting"}
+INFO  | 2026/05/26 17:11:34.561437 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 4\nLEARNING_RATE -> 0.0001", "data": "Submitting"}
+INFO  | 2026/05/26 17:21:59.150431 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 5\nLEARNING_RATE -> 0.0001", "data": "Submitting"}
+INFO  | 2026/05/26 17:32:22.548733 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 6\nLEARNING_RATE -> 0.0001", "data": "Submitting"}
+INFO  | 2026/05/26 17:43:14.919576 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 7\nLEARNING_RATE -> 0.0001", "data": "Submitting"}
+INFO  | 2026/05/26 17:54:01.297751 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 8\nLEARNING_RATE -> 0.0001", "data": "Submitting"}
+INFO  | 2026/05/26 18:04:39.919682 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 9\nLEARNING_RATE -> 0.0001", "data": "Submitting"}
+INFO  | 2026/05/26 18:15:03.328304 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 10\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/26 18:25:26.305727 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 11\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/26 18:35:46.234283 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 12\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/26 18:46:08.053146 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 13\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/26 18:56:30.783817 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 14\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/26 19:06:48.110172 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 15\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/26 19:17:06.981882 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 16\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/26 19:27:26.806675 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 17\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/26 19:37:45.413747 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 18\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/26 19:48:03.872655 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 19\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/26 19:58:23.960306 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 20\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/26 20:08:44.105897 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 21\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/26 20:19:05.893941 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 22\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/26 20:29:59.701606 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 23\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/26 20:40:57.043399 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 24\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/26 20:51:38.511380 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 25\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/26 21:02:43.968775 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 26\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/26 21:13:29.537837 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 27\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/26 21:24:15.746532 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 28\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/26 21:34:50.221962 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 29\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/26 21:45:21.829095 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 30\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/26 21:55:49.488794 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 31\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/26 22:06:21.549424 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 32\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/26 22:16:54.458603 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 33\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/26 22:27:26.516278 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 34\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/26 22:38:01.091033 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 35\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/26 22:48:33.318980 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 36\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/26 22:59:04.655961 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 37\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/26 23:09:33.326806 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 38\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/26 23:20:01.833562 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 39\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/26 23:30:33.783865 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 40\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/26 23:41:01.989638 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 41\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/26 23:51:28.224995 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 42\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 00:01:54.013677 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 43\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 00:12:18.031401 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 44\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 00:22:53.235887 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 45\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 00:33:22.871535 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 46\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 00:43:52.376860 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 47\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 00:54:21.319158 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 48\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 01:04:52.206298 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 49\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 01:15:22.031437 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 50\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 01:25:53.467870 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 51\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 01:36:25.110072 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 52\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 01:46:59.127276 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 53\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 01:57:31.145797 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 54\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 02:08:04.293352 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 55\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 02:18:34.491893 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 56\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 02:29:06.035744 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 57\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 02:39:37.084220 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 58\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 02:50:11.524354 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 59\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 03:00:43.989047 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 60\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 03:11:14.829026 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 61\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 03:21:47.143934 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 62\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 03:32:18.200811 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 63\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 03:42:50.045021 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 64\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 03:53:21.709142 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 65\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 04:03:52.325024 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 66\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 04:14:22.690957 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 67\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 04:24:55.984977 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 68\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 04:35:30.185493 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 69\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 04:46:00.942907 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 70\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 04:56:33.609810 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 71\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 05:07:11.292787 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 72\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 05:17:47.207865 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 73\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 05:28:18.610129 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 74\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 05:38:48.049772 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 75\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 05:49:17.770717 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 76\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 05:59:53.441701 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 77\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 06:10:22.819068 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 78\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 06:20:55.424686 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 79\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 06:31:25.249793 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 80\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 06:41:55.472735 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 81\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 06:52:26.508422 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 82\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 07:02:57.620326 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 83\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 07:13:27.086801 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 84\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 07:23:56.910219 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 85\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 07:34:27.647084 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 86\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 07:44:55.451772 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 87\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 07:55:24.182842 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 88\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 08:05:54.217500 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 89\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 08:16:25.379221 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 90\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 08:27:06.246258 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 91\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 08:37:38.413707 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 92\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 08:48:09.913096 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 93\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 08:58:43.401813 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 94\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 09:09:15.355991 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 95\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 09:19:50.491148 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 96\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 09:30:26.239469 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 97\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 09:41:04.387923 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 98\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 09:51:46.946077 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 99\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 10:02:24.809772 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 100\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 10:12:59.299767 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 101\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 10:24:05.140709 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 102\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 10:34:45.745876 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 103\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 10:45:19.163862 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 104\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 10:55:51.636194 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 105\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 11:06:23.470408 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 106\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 11:17:15.673402 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 107\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 11:27:58.023924 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 108\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 11:38:29.124481 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 109\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 11:48:58.576644 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 110\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 11:59:29.640016 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 111\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 12:09:58.032270 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 112\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 12:20:30.404451 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 113\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 12:31:06.162325 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 114\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 12:41:35.663885 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 115\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 12:52:08.472441 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 116\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 13:02:38.157477 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 117\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 13:13:09.334708 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 118\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 13:23:44.415677 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 119\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 13:34:17.525069 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 120\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 13:44:49.076519 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 121\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 13:55:18.692114 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 122\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 14:05:49.316974 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 123\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 14:22:43.564328 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 124\nLEARNING_RATE -> 0.0001", "data": "Submitting"}
+INFO  | 2026/05/27 14:33:13.976468 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 125\nLEARNING_RATE -> 0.0001", "data": "Submitting"}
+INFO  | 2026/05/27 14:43:33.844300 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 126\nLEARNING_RATE -> 0.0001", "data": "Submitting"}
+INFO  | 2026/05/27 14:53:54.850165 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 127\nLEARNING_RATE -> 0.0001", "data": "Submitting"}
+INFO  | 2026/05/27 15:04:17.265710 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 128\nLEARNING_RATE -> 0.0001", "data": "Submitting"}
+INFO  | 2026/05/27 15:14:41.156566 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 129\nLEARNING_RATE -> 0.0001", "data": "Submitting"}
+INFO  | 2026/05/27 15:24:54.259392 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 130\nLEARNING_RATE -> 0.0001", "data": "Submitting"}
+INFO  | 2026/05/27 15:35:07.128202 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 131\nLEARNING_RATE -> 0.0001", "data": "Submitting"}
+INFO  | 2026/05/27 15:45:21.967561 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 132\nLEARNING_RATE -> 0.0001", "data": "Submitting"}
+INFO  | 2026/05/27 15:55:35.085211 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 133\nLEARNING_RATE -> 0.0001", "data": "Submitting"}
+INFO  | 2026/05/27 16:05:49.613024 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 134\nLEARNING_RATE -> 0.0001", "data": "Submitting"}
+INFO  | 2026/05/27 16:16:04.067951 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 135\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 16:26:17.600274 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 136\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 16:36:31.532979 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 137\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 16:46:45.450885 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 138\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 16:56:59.367796 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 139\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 17:07:11.848625 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 140\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 17:17:24.884587 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 141\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 17:27:38.903816 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 142\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 17:37:51.794399 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 143\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 17:48:04.198690 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 144\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 17:58:17.839665 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 145\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 18:08:31.409514 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 146\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 18:18:42.986590 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 147\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 18:28:56.195324 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 148\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/27 18:39:09.810598 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 149\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/29 01:19:42.063117 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 150\nLEARNING_RATE -> 0.0001", "data": "Submitting"}
+INFO  | 2026/05/29 01:29:57.456487 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 151\nLEARNING_RATE -> 0.0001", "data": "Submitting"}
+INFO  | 2026/05/29 01:40:12.364542 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 152\nLEARNING_RATE -> 0.0001", "data": "Submitting"}
+INFO  | 2026/05/29 01:50:26.087465 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 153\nLEARNING_RATE -> 0.0001", "data": "Submitting"}
+INFO  | 2026/05/29 02:00:41.140770 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 154\nLEARNING_RATE -> 0.0001", "data": "Submitting"}
+INFO  | 2026/05/29 02:10:58.808398 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 155\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/29 02:21:14.660472 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 156\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/29 02:31:30.021170 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 157\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/29 02:41:47.053668 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 158\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/29 02:52:02.877034 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 159\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/29 03:02:18.922354 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 160\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/29 03:12:34.716893 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 161\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/29 03:22:49.898039 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 162\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/29 03:33:05.365543 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 163\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/29 03:43:20.941129 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 164\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/29 03:53:40.245979 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 165\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/29 04:03:55.072356 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 166\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/29 04:14:09.521767 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 167\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/29 04:24:25.152906 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 168\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/29 04:34:41.917485 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 169\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/29 04:44:57.512379 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 170\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/29 04:55:12.508908 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 171\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/29 05:05:27.858899 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 172\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/29 05:15:45.537911 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 173\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/29 05:26:00.251457 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 174\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/29 05:36:14.361864 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 175\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/29 05:46:28.166503 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 176\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/29 05:56:43.076105 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 177\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/29 06:06:58.091368 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 178\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/29 06:17:13.454818 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 179\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/29 06:27:29.188683 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 180\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/29 06:37:45.268881 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 181\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/29 06:48:00.660779 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 182\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/29 06:58:16.671969 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 183\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/29 07:08:28.579774 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 184\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/29 07:18:39.257617 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 185\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/29 07:28:49.608708 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 186\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/29 07:39:00.942608 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 187\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/29 07:49:11.634101 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 188\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/29 07:59:22.741564 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 189\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/29 08:09:33.190593 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 190\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/29 08:19:44.573880 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 191\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/29 08:29:54.618616 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 192\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/29 08:40:10.000252 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 193\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/29 08:50:22.939500 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 194\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/29 09:00:37.703947 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 195\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/29 09:10:49.682559 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 196\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/29 09:21:06.831971 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 197\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/29 09:31:21.313056 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 198\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/29 09:41:35.257284 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 199\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/29 09:51:49.769306 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 200\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/29 10:02:12.264238 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 201\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/29 10:12:35.829732 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 202\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/29 10:23:00.465029 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 203\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/29 10:33:33.067617 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 204\nLEARNING_RATE -> 1e-05", "data": "Submitting"}
+INFO  | 2026/05/29 10:44:12.203497 | [Submit] -> {"description": "BATCH_SIZE = 10\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nEPOCH -> 205\nLEARNING_RATE -> 1e-05", "data": "Submitting"}

@@ -18,9 +18,7 @@ t.*
 
 data
 data/
-log/
-logs/
 
 *.pdf
 
-*.ipynb
+*.zip

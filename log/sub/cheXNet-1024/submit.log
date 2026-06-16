@@ -1,0 +1,1 @@
+INFO  | 2026/06/04 21:13:21.478584 | [Submit] -> {"description": "BATCH_SIZE = 7\nINITIAL_LEARNING_RATE = 0.0001\nTRANSFORM = True\nVALIDATE_RATIO = 0.7\nWEIGHT_BALANCE = True\nREVERSE_PENALTY = False\nSTATIC_ROUND = 5\nRELU = False\nLABEL = Ver 4.0 - Branch CheXNet - Linear - TTA\nTTA_TIMES = 0\nN = 512", "data": "Submitting"}
